@@ -122,6 +122,8 @@ async function findUser(username: string): Promise<User | null> {
         passwordHash:
           "$2b$10$.IebtAfg7AqDtMOrlBZ2MewBNQDlwnesR95J9tCxlXjzdFjcnYQqO",
         role: "BENDAHARA",
+        otp: null,
+        otpExpiry: null,
         createdAt: new Date(),
       },
       {
@@ -130,6 +132,8 @@ async function findUser(username: string): Promise<User | null> {
         passwordHash:
           "$2b$10$.IebtAfg7AqDtMOrlBZ2MewBNQDlwnesR95J9tCxlXjzdFjcnYQqO",
         role: "KETUA",
+        otp: null,
+        otpExpiry: null,
         createdAt: new Date(),
       },
     ]
